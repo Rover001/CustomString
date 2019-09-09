@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ZYCustomString"
-  s.version      = "0.1.2"
-  s.summary      = "A short description of ZYCustomString.A short description of ZYCustomString."
+  s.version      = "0.1.3"
+  s.summary      = "测试ZYCustomString"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     "测试ZYCustomString是否可以成功"
                    DESC
 
-  s.homepage     = "https://github.com/Rover001/CustomString"
+  s.homepage     = "https://github.com/Rover001/CustomString.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
 #s.license      = "MIT (example)"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/Rover001/CustomString.git", :tag => "0.1.2" }
+  s.source       = { :git => "https://github.com/Rover001/CustomString.git", :tag => "0.1.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
 #s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.source_files  = "Exclude"
+  s.source_files  = "ZYCustomString","ZYCustomString/**/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
